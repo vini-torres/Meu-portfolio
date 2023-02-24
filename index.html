@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Front-end com experiências em React, React-native, Node e JavaScript puro">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vinícius Tôrres | Desenvolvedor front-end</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container_header">
+           <a href="index.html" class="link" aria-label="link para página atual"><img src="img/logo.png" alt="Logo principal" class="logo_header" width="7rem" height="auto"></a>
+           <nav class="menu_header">
+            <button class="button_header" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir menu"><span class="menu_icone-header"></span></button>
+            <ul class="list_header" role="menu">
+                <li class="iten_header"><a href="#principal" class="link_iten">Home</a></li>
+                <li class="iten_header"><a href="#sobre" class="link_iten">Sobre</a></li>
+                <li class="iten_header"><a href="#qualificacoes" class="link_iten">Qualificações</a></li>
+                <li class="iten_header"><a href="#servicos" class="link_iten">Serviços</a></li>
+                <li class="iten_header"><a href="#conhecimento" class="link_iten">Conhecimento</a></li>
+                <li class="iten_header"><a href="#projeto" class="link_iten">Projetos</a></li>
+                <li class="iten_header"><a href="#contato" class="link_iten">Contato</a></li>
+            </ul>
+           </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section_main" id="principal">
+            <div class="container_main">
+                <p class="destaque_main">Tecnologia como um ativo <i class="bi bi-lightning-charge-fill destaque"></i></p>
+                <h2 class="titulo_main">Olá, eu sou <span class="destaque">Vinícius </span></h2>
+                <p class="cargo_main">Front-end developer</p>
+                <p class="descricao_main">Fico feliz em vê-lo (a) por aqui. Espero que aproveite o conteúdo e que eu possa te ajudar de alguma forma.</p>
+                <a href="#sobre"><button class="button">Conhecer mais</button></a>
+            </div>
+            <nav class="navigation_main">
+                <ul class="list_main">
+                    <li class="iten_main"><a href="https://www.instagram.com/viniciuss.dev/" class="link" target="_blank" aria-label="Visitar Instagram de Vinícius"><i class="fa-brands fa-instagram icons"></i></a></li>
+                    <li class="iten_main"><a href="https://github.com/ViniciusTorresof" class="link" target="_blank" aria-label="Visitar Github de Vinícius"><i class="fa-brands fa-github icons"></i></a></li>
+                    <li class="iten_main"><a href="https://www.linkedin.com/in/viniciustorresoficial/" class="link" target="_blank" aria-label="Visitar Linkedin de Vinícius"><i class="fa-brands fa-linkedin icons"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section_sobre" id="sobre">
+            <img src="img/foto_perfil.jpg" class="foto_perfil" alt="Foto de Vinícius Tôrres">
+            <div class="container_sobre">
+                <p class="texto_destaque"><img src="img/arrow-rigth.png" class="arrow"> DESENVOLVEDOR FRONT-END</p>
+                <h3 class="titulo_sobre">Desenvolvedor Front-end com experiências em React, React-native, Node e JavaScript puro.</h3>
+                <p class="descricao_sobre">Meu nome é Vinícius, tenho 20 anos e atuo na área de desenvolvimento a mais de 1 ano. Possuo experiência como freelancer, mas estou buscando uma primeira oportunidade no mercado como desenvolvedor Jr.</p>
+                <p class="descricao_sobre">Logo a baixo tem o meu currículo com informçôes mais detalhadas sobre mim. Se preferir, podemos marcar uma call atráves do meu e-mail que está disponibilizado.</p>
+                <div class="container_button">
+                    <a href="document/Vinicius Torres Cv.pdf" download="CV Vinícius Tôrres" aria-label="Baixar curriculo de Vinícius" class="link">
+                        <button class="button_cv">Baixar CV <i class="fa-solid fa-download"></i></button>
+                    </a>
+                    <button class="button_email botaoCopiar" value="vinicius.devof@gmail.com" type="button" aria-label="Copiar email de Vinícius">Copiar e-mail</button>
+                </div>
+            </div>
+        </section>
+        <section class="section_destaque">
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero">+</span> 01</p>
+                <p class="destaque_descricao">Ano de experiência como desenvolvedor</p>
+            </div>
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero">+</span> 08</p>
+                <p class="destaque_descricao">Projetos pessoais e educativos concluídos</p>
+            </div>
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 01</p>
+                <p class="destaque_descricao">Projeto freelancer entregue</p>
+            </div>
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 02</p>
+                <p class="destaque_descricao">Cursos front-end concluídos</p>
+            </div>
+        </section>
+        <section class="section_qualificacoes" id="qualificacoes">
+            <header class="cabecalho">
+                <h2 class="titulo">Minhas qualificações e experiências</h2>
+            </header>
+            <div class="bloco_button">
+                <button class="button button_educacao educacao" data-id="educacao" aria-label="Qualificações"><i class="fa-solid fa-award"></i> Qualificações</button>
+                <button class="button button_work" data-id="work" aria-label="Trabalhos"><i class="fa-solid fa-briefcase" ></i> Trabalhos</button>
+            </div>
+            <div class="container_qualificacoes">
+                <ul class="lista" id="educacao">
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/alura-logo.svg" alt="Curso da alura" class="curso">
+                        </div>
+                        <p class="cargo">Desenvolvimento Front-end</p>
+                        <p class="descricao">Iniciei meus estudos como desenvolvedor front-end na alura, no qual eu aprendir a base e conceitos importantes. Nessa trajetória me aprofundei em tecnologias como Html, Css, JavaScript, tailwind CSS e BootStrap.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2021-2022</p>
+                        <a href="document/Certificado Alura.pdf" class="link" download="Certificado Alura" aria-label="Certificado Alura">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visuzalizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li left qualificacao_left">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/rocketseat.svg" alt="Curso da rocketseat" class="curso" >
+                        </div>
+                        <p class="cargo">Especialização Front-end</p>
+                        <p class="descricao">Atualmente estou cursando desenvolvimento front-end na Rocketseat (Ignite) com intuito de me especializar em tecnologias como React, React-native e Node JS. Além disso, buscar aprender conceitos importantes no mercado para aplicar no meus trabalhos.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> Em progresso</p>
+                        <button class="button_certificado button-progresso" disabled>Em progresso</button>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/logo-hora.webp" alt="Curso Hora de codar" class="curso curso-hora" >
+                        </div>
+                        <p class="cargo">Programação orientada a objetos</p>
+                        <p class="descricao">No curso Hora de codar, busquei me aprofundar em Programação orientada a objetos, com o intuito de aprender mais sobre essa "ferramenta" e como eu poderia utiliza-la em meus projetos.</p>
+                        <p class="conclusao"><giti class="fa-regular fa-calendar-days"></giti> 2022 Dezembro</p>
+                        <a href="document/Certificado Hora de Codar.pdf" class="link" download="Certificado Hora de Codar" aria-label="Certificado Hora de Codar">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visuzalizar certificado</button>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="lista lista_work" id="work">
+                    <li class="li item-work">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                            <img src="img/workana.svg" alt="Plataforma de intermédio Woarkana" class="curso">
+                        </div>
+                        <p class="cargo">Atuei como Freelancer</p>
+                        <p class="descricao">Nesse trabalho, além de poder contribuir para o projeto do cliente, puder revisar e aprendar conceitos importantes da base do front-end. O cliente solicitou um trabalho, no qual o foco do trabalho era fazer o layout de uma aplicação disponibilizada no figma, e as ferramentas solicitadas para esse trabalho foram Html, Css e JS. A workana era a plataforma de intermédio.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2023 - Janeiro ( 1 Semana de duração )</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_servico" id="servicos">
+            <header class="cabecalho_servico">
+                <h2 class="titulo">Conheça quais são os meus <span class="destaque">serviços</span></h2>
+                <p class="descricao">Metodologias que eu utilizo nos meus trabalhos.</p>
+            </header>
+            <div class="container_servico">
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento Web</h3>
+                    <p class="descricao">Um desenvolvimento focado na criação de sites, páginas únicas, E-commerce ou outras aplicações. Promovendo uma boa experiência e uma boa otimização do site.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento Responsivo</h3>
+                    <p class="descricao">Aplicação web responsiva, disponível para todos os dispositivos móveis, tornando o site mais prático e acessível. Ou aplicações 100% mobile, como aplicativos.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Experiência do usuário</h3>
+                    <p class="descricao">Aplicações voltadas a um conjunto de elementos e fatores de um serviço, produto ou sistema que tem como objetivo promover uma boa experiência para o usuário.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_tech" id="conhecimento">
+            <h2 class="titulo_tech">Conhecimento</h2>
+            <div class="container_tech">
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="nome_tech">Html 5</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="nome_tech">Css 3</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="nome_tech">Styled-components</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <p class="nome_tech">BootStrap</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="img/tailwind-css.svg" class="tailwind"  alt="Tailwind CSS">
+                    <p class="nome_tech">Tailwind Css</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="nome_tech">JavaScript</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="img/typescript.svg" class="typescript" alt="TypeScript"> 
+                    <p class="nome_tech">TypeScript</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-react"></i>
+                    <p class="nome_tech">React</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-react"></i>
+                    <p class="nome_tech">React-native</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="img/node.svg" class="typescript" alt="Node JS"> 
+                    <p class="nome_tech">Node Js</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_projetos" id="projeto">
+            <h2 class="titulo_projeto">Meus projetos</h2>
+            <div class="container_projetos">
+                <div class="card_projeto">
+                    <img src="img/landing-page.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Landing-page</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/ViniciusTorresof/Landing-page-mercado-financeiro" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://landing-page-financeiro.netlify.app/" class="link" target="_blank" aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/toDo.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">To-Do List</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/ViniciusTorresof/To-do-List" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://listademetas.netlify.app/" class="link" target="_blank" aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/pagina-de-cadastro.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Página de Cadastro</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/ViniciusTorresof/Pagina-de-cadastro" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://pagina-de-cadastroof.netlify.app/" class="link" target="_blank" aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container_button">
+                <a href="https://github.com/ViniciusTorresof" class="link" target="_blank" aria-label="Abrir Github">
+                    <button class="botao_github">Abrir Github</button>
+                </a>
+            </div>
+        </section>
+        <section class="section_contato" id="contato">
+            <header class="cabecalho_contato">
+                <h2 class="titulo titulo_contato">Networking</h2>
+                <p class="descricao descricao_contato">Você pode me enviar um email ou conversar diretamente através das minhas redes.</p>
+             </header>
+            <div class="lista_rede">
+                <div class="item_rede">
+                    <a href="https://www.linkedin.com/in/viniciustorresoficial/" class="link" target="_blank" aria-label="Abrir Linkedin de Vinícius">
+                        <i class="fa-brands fa-linkedin icon"></i> Linkedin
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://github.com/ViniciusTorresof" class="link" target="_blank"  aria-label="Abrir Github de Vinícius">
+                        <i class="fa-brands fa-github icon"></i> Github
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://www.instagram.com/viniciuss.dev/" class="link" target="_blank"  aria-label="Abrir Instagram de Vinícius">
+                        <i class="fa-brands fa-instagram icon"></i> Instagram
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <a href="#principal" class="link"  aria-label="Voltar para o topo da página">
+            <button class="botao_topo"><i class="fa-solid fa-angles-up icone"></i>Voltar ao topo</button>
+        </a>
+    </main>
+    <footer class="footer">
+        <h2 class="titulo">Vinícius Tôrres © 2022</h2>
+    </footer>
+    <script src="https://kit.fontawesome.com/b4aee6e34b.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
